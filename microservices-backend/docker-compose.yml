@@ -202,7 +202,7 @@ services:
     build: ../monolithic-frontend
     container_name: revticket-frontend
     ports:
-      - "4200:4200"
+      - "80:80"
     depends_on:
       api-gateway:
         condition: service_started

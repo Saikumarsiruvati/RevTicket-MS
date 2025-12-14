@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8090/api'
+  apiUrl: '/api'  // Use relative URL - nginx will proxy to API Gateway
 };
